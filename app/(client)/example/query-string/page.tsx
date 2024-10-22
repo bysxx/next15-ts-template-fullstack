@@ -1,8 +1,7 @@
-export default function QueryStringPage({
-  searchParams,
-}: {
-  searchParams?: { [key: string]: string | string[] | undefined };
+export default async function QueryStringPage(props: {
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
+  const searchParams = await props.searchParams;
   return (
     <main className="flex min-h-screen flex-col items-center p-8">
       {searchParams && (

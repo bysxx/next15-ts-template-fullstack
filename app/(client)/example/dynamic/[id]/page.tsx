@@ -1,4 +1,5 @@
-export default function ExampleDynamicPage({ params }: { params: { id: string } }) {
+export default async function ExampleDynamicPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   return (
     <main className="flex min-h-screen flex-col items-center p-8">
       <div className="flex flex-col gap-y-4">

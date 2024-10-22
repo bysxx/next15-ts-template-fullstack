@@ -7,6 +7,9 @@ const nextConfig = {
   compiler: {
     removeConsole: false,
   },
+  experimental: {
+    reactCompiler: true,
+  },
 };
 
 module.exports = nextConfig;

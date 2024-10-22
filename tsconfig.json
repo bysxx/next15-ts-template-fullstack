@@ -38,14 +38,14 @@
       "@libs/*": ["src/libs/*"],
       "@stores/*": ["src/stores/*"],
       "@styles/*": ["src/styles/*"],
-      "@components/*": ["src/components/*"],
+      "@components/*": ["src/components/*"]
     },
     "plugins": [
       {
-        "name": "next",
-      },
-    ],
+        "name": "next"
+      }
+    ]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["./out/**/*", "./node_modules/**/*"],
+  "exclude": ["./out/**/*", "./node_modules/**/*"]
 }

@@ -1,12 +1,12 @@
-# Fullstack Next.js 14 + TypeScript + MongoDB Template
+# Fullstack Next.js 15 + TypeScript + MongoDB Template
 
-- This template is a comprehensive starting point for building full-stack applications using Next.js 14, TypeScript, MongoDB, and other modern web technologies.
+- This template is a comprehensive starting point for building full-stack applications using Next.js 15, TypeScript, MongoDB, and other modern web technologies.
 - Designed for efficiency and best practices, this template includes several out-of-the-box features and examples to jumpstart your project.
 - Always use the latest version of the package
 
 ## Lighthouse Result
 
-<img width="1280" alt="image" src="https://github.com/bysxx/next14-ts-template-fullstack/assets/91772497/d9576596-37c4-4392-bc94-2a1bc7469bb1">
+<img width="1280" alt="image" src="https://github.com/bysxx/next15-ts-template-fullstack/assets/91772497/d9576596-37c4-4392-bc94-2a1bc7469bb1">
 
 ## Code With
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -46,12 +46,12 @@ yarn start
 
 ## Examples
 This template includes several examples to demonstrate its capabilities and provide a starting point for common web application features:
-- [Dynamic Pages](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/app/(client)/example/dynamic/%5Bid%5D/page.tsx): Handling dynamic routes in Next.js.
-- [Data Fetching](https://github.com/bysxx/next14-ts-template-fullstack/tree/master/app/(client)/example/fetching): Examples of server-side and client-side data fetching.
-- [Query Strings](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/app/(client)/example/query-string/page.tsx): query strings in Next.js
-- [React Query](https://github.com/bysxx/next14-ts-template-fullstack/tree/master/app/(client)/example/react-query): State management with React Query.
-- [Server Actions](https://github.com/bysxx/next14-ts-template-fullstack/tree/master/app/(client)/example/server-actions): Examples of server-side logic in Next.js 14
+- [Dynamic Pages](https://github.com/bysxx/next15-ts-template-fullstack/blob/master/app/(client)/example/dynamic/%5Bid%5D/page.tsx): Handling dynamic routes in Next.js.
+- [Data Fetching](https://github.com/bysxx/next15-ts-template-fullstack/tree/master/app/(client)/example/fetching): Examples of server-side and client-side data fetching.
+- [Query Strings](https://github.com/bysxx/next15-ts-template-fullstack/blob/master/app/(client)/example/query-string/page.tsx): query strings in Next.js
+- [React Query](https://github.com/bysxx/next15-ts-template-fullstack/tree/master/app/(client)/example/react-query): State management with React Query.
+- [Server Actions](https://github.com/bysxx/next15-ts-template-fullstack/tree/master/app/(client)/example/server-actions): Examples of server-side logic in Next.js 15
 - More examples coming soon...
 
 ## License
-This template is available under the [MIT License](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/license.md).
+This template is available under the [MIT License](https://github.com/bysxx/next15-ts-template-fullstack/blob/master/license.md).
