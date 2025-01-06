@@ -6,7 +6,7 @@
 
 ## Lighthouse Result
 
-<img width="1280" alt="image" src="https://github.com/bysxx/next15-ts-template-fullstack/assets/91772497/d9576596-37c4-4392-bc94-2a1bc7469bb1">
+<img width="1490" alt="image" src="https://github.com/user-attachments/assets/83f1f9ce-2140-43dd-926e-29914b7a5eb0" />
 
 ## Code With
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -21,10 +21,8 @@
 
 **Node.js version 18 or higher is required.**
 
-### Yarn Berry 
+### Init
 ```bash
-npm install yarn -g
-yarn set version berry
 yarn
 ```
 
