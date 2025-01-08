@@ -21,8 +21,6 @@
 
 # debug
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
@@ -33,13 +31,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-
-### yarn ###
-# used Zero-Install
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
