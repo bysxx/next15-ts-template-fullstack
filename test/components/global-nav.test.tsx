@@ -1,6 +1,6 @@
+import NavBar from '@components/ui/global-nav';
 import { render, screen } from '@testing-library/react';
 
-import NavBar from '../../src/components/ui/global-nav';
 import Wrapper from '../TestWrapper';
 
 describe('Navbar Test', () => {
