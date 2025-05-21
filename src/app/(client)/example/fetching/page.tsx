@@ -1,7 +1,7 @@
-import Loading from '@components/ui/loading';
-import { Suspense } from 'react';
+import Loading from "@components/ui/loading";
+import { Suspense } from "react";
 
-import FetchingComponent from './components/fetching-component';
+import FetchingComponent from "./components/fetching-component";
 
 export const revalidate = 0;
 

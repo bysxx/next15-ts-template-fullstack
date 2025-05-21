@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const useBeforeLeave = (onBefore: () => void) => {
   useEffect(() => {
@@ -9,8 +9,8 @@ const useBeforeLeave = (onBefore: () => void) => {
       }
     };
 
-    document.addEventListener('mouseleave', handle);
-    return () => document.removeEventListener('mouseleave', handle);
+    document.addEventListener("mouseleave", handle);
+    return () => document.removeEventListener("mouseleave", handle);
   }, [onBefore]);
 };
 

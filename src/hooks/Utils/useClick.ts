@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 const useClick = (onClick: () => void) => {
   // TODO. HTML 태그 전체를 포괄할 수 있는 타입 정의 필요
@@ -8,12 +8,12 @@ const useClick = (onClick: () => void) => {
     const { current } = element;
 
     if (current) {
-      current.addEventListener('click', onClick);
+      current.addEventListener("click", onClick);
     }
 
     return () => {
       if (current) {
-        current.removeEventListener('click', onClick);
+        current.removeEventListener("click", onClick);
       }
     };
   }, [onClick]);

@@ -1,9 +1,9 @@
 export default function ServerActionsPage() {
   async function create(formData: FormData) {
-    'use server';
+    "use server";
 
     // eslint-disable-next-line no-console
-    console.log('login: ', formData.get('id'), formData.get('password'));
+    console.log("login: ", formData.get("id"), formData.get("password"));
   }
   return (
     <main className="p-4">

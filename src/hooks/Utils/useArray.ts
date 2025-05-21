@@ -1,5 +1,5 @@
-import type { Dispatch, SetStateAction } from 'react';
-import { useState } from 'react';
+import type { Dispatch, SetStateAction } from "react";
+import { useState } from "react";
 
 type UseArrayReturnType<T> = {
   array: T[];

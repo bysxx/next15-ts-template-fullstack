@@ -1,10 +1,10 @@
 const usePreventLeave = () => {
   const listener = (e: BeforeUnloadEvent) => {
     e.preventDefault();
-    e.returnValue = '';
+    e.returnValue = "";
   };
-  const enablePrevent = () => window.addEventListener('beforeunload', listener);
-  const disablePrevent = () => window.removeEventListener('beforeunload', listener);
+  const enablePrevent = () => window.addEventListener("beforeunload", listener);
+  const disablePrevent = () => window.removeEventListener("beforeunload", listener);
 
   return { enablePrevent, disablePrevent };
 };

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 export const useIsElementInViewport = (options?: IntersectionObserverInit) => {
   const elementRef = useRef<HTMLDivElement | HTMLImageElement | HTMLParagraphElement | null>(null);

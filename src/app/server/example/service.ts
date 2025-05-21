@@ -1,7 +1,7 @@
-import dbConnect from 'app/server/db-connect';
-import type { IExample } from 'app/server/example/interfaces';
+import dbConnect from "app/server/db-connect";
+import type { IExample } from "app/server/example/interfaces";
 
-import Example from './model';
+import Example from "./model";
 
 export const createExample = async ({ title, description }: IExample) => {
   await dbConnect();
@@ -19,7 +19,7 @@ export const getExample = async () => {
 
 export const findExampleByTitle = async (title: string) => {
   await dbConnect();
-  const data = await Example.find({ title: { $regex: title, $options: 'i' } });
+  const data = await Example.find({ title: { $regex: title, $options: "i" } });
 
   return data;
 };

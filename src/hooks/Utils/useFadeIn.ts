@@ -1,6 +1,6 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
-const useFadeIn = (duration: number = 1, delay: number = 0) => {
+const useFadeIn = (duration = 1, delay = 0) => {
   // TODO. useClick과 마찬가지로 HTML 태그 전체를 포괄할 수 있는 타입 정의 필요
   const element = useRef<HTMLDivElement | HTMLHeadingElement | HTMLParagraphElement | null>(null);
 
@@ -8,7 +8,7 @@ const useFadeIn = (duration: number = 1, delay: number = 0) => {
     if (element.current) {
       const { current } = element;
       current.style.transition = `opacity ${duration}s ease-in-out ${delay}s`;
-      current.style.opacity = '1';
+      current.style.opacity = "1";
     }
   }, [duration, delay]);
 

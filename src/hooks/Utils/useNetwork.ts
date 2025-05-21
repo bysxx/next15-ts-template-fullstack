@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const useNetwork = (onChange: (online: boolean) => void) => {
   const [status, setStatus] = useState(navigator.onLine);
@@ -9,11 +9,11 @@ const useNetwork = (onChange: (online: boolean) => void) => {
       setStatus(navigator.onLine);
     };
 
-    window.addEventListener('online', handleChange);
-    window.addEventListener('offline', handleChange);
+    window.addEventListener("online", handleChange);
+    window.addEventListener("offline", handleChange);
     return () => {
-      window.removeEventListener('online', handleChange);
-      window.removeEventListener('offline', handleChange);
+      window.removeEventListener("online", handleChange);
+      window.removeEventListener("offline", handleChange);
     };
   }, [onChange]);
 

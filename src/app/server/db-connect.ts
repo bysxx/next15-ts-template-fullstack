@@ -1,10 +1,9 @@
 // lib/dbConnect.tsx
 
-import type _mongoose from 'mongoose';
-import { connect } from 'mongoose';
+import type _mongoose from "mongoose";
+import { connect } from "mongoose";
 
 declare global {
-  // eslint-disable-next-line
   var mongoose: {
     promise: ReturnType<typeof connect> | null;
     conn: typeof _mongoose | null;
@@ -14,7 +13,7 @@ declare global {
 const { MONGODB_URI } = process.env;
 
 if (!MONGODB_URI) {
-  throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
+  throw new Error("Please define the MONGODB_URI environment variable inside .env.local");
 }
 
 /**
@@ -39,7 +38,7 @@ async function dbConnect() {
       bufferCommands: false,
     };
 
-    cached.promise = connect(MONGODB_URI!, opts).then((mongoose) => {
+    cached.promise = connect(MONGODB_URI as string, opts).then((mongoose) => {
       return mongoose;
     });
   }

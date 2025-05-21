@@ -1,7 +1,7 @@
-import Loading from '@components/ui/loading';
-import { Suspense } from 'react';
+import Loading from "@components/ui/loading";
+import { Suspense } from "react";
 
-import WaitingComponent from './components/wating-component';
+import WaitingComponent from "./components/wating-component";
 
 export const revalidate = 0;
 
