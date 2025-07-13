@@ -3,6 +3,7 @@ import "@styles/global.css";
 import Footer from "@components/ui/footer";
 import GlobalNav from "@components/ui/global-nav";
 import { Raleway } from "next/font/google";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 import type { ReactNode } from "react";
 import { Providers } from "./provider";
 
@@ -17,11 +18,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ko">
       <body className={raleway.className}>
-        <Providers>
-          <GlobalNav />
-          {children}
-          <Footer />
-        </Providers>
+        <NuqsAdapter>
+          <Providers>
+            <GlobalNav />
+            {children}
+            <Footer />
+          </Providers>
+        </NuqsAdapter>
       </body>
     </html>
   );
