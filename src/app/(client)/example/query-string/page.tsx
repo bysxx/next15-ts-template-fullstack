@@ -1,8 +1,9 @@
 "use client";
 
 import { parseAsInteger, useQueryState } from "nuqs";
+import { Suspense } from "react";
 
-export default function QueryStringPage() {
+function QueryStringPage() {
   const [count, setCount] = useQueryState(
     "count",
     parseAsInteger.withDefault(0)
@@ -21,5 +22,13 @@ export default function QueryStringPage() {
         </button>
       </div>
     </main>
+  );
+}
+
+export default function Page() {
+  return (
+    <Suspense>
+      <QueryStringPage />
+    </Suspense>
   );
 }
