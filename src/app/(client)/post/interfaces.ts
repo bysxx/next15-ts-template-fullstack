@@ -1,4 +1,4 @@
-export interface IExample {
+export interface Post {
   title: string;
   description: string;
 }

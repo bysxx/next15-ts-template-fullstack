@@ -1,8 +1,8 @@
-import type { IExample } from "app/server/example/interfaces";
+import type { Post } from "app/(client)/post/interfaces";
 import type { Model } from "mongoose";
 import mongoose, { model } from "mongoose";
 
-const ExampleSchema = new mongoose.Schema({
+const PostSchema = new mongoose.Schema({
   title: {
     type: String,
     required: [true, "Please provide a title"],
@@ -14,4 +14,4 @@ const ExampleSchema = new mongoose.Schema({
   },
 });
 
-export default (mongoose.models.Example || model<IExample>("Example", ExampleSchema)) as Model<IExample>;
+export default (mongoose.models.Post || model<Post>("Post", PostSchema)) as Model<Post>;

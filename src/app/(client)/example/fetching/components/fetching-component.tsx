@@ -1,7 +1,7 @@
-import { getExample } from "app/server/example/action";
+import { getPost } from "app/(client)/post/action";
 
 export default async function FetchingComponent() {
-  const data = await getExample();
+  const data = await getPost();
 
   return (
     <div className="">
