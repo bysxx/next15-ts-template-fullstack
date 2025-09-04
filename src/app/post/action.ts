@@ -1,6 +1,6 @@
 "use server";
 
-import type { Post } from "app/(client)/post/interfaces";
+import type { Post } from "app/post/interfaces";
 
 export async function getPost() {
   // const data = await getPost() <- this is where you would call your service

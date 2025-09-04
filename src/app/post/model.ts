@@ -1,4 +1,4 @@
-import type { Post } from "app/(client)/post/interfaces";
+import type { Post } from "app/post/interfaces";
 import type { Model } from "mongoose";
 import mongoose, { model } from "mongoose";
 

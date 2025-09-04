@@ -1,4 +1,4 @@
-import { getPost } from "app/(client)/post/action";
+import { getPost } from "app/post/action";
 
 export default async function FetchingComponent() {
   const data = await getPost();

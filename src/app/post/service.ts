@@ -1,5 +1,5 @@
-import type { Post } from "app/(client)/post/interfaces";
-import dbConnect from "../../../utils/db-connect";
+import type { Post } from "app/post/interfaces";
+import dbConnect from "../../utils/db-connect";
 
 import Example from "./model";
 
