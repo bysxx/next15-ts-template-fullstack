@@ -2,4 +2,5 @@
 
 * {
   box-sizing: border-box;
+  word-break: keep-all;
 }
