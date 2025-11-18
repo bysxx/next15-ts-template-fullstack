@@ -8,7 +8,6 @@ const nextConfig = {
     removeConsole: false,
   },
   experimental: {
-    reactCompiler: true,
     viewTransition: true,
   },
 };

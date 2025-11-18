@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -26,19 +30,33 @@
     "allowJs": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "noEmit": true,
     "isolatedModules": true,
     "incremental": true,
     "baseUrl": "./src",
     "paths": {
-      "@requests/*": ["./requests/*"],
-      "@hooks/*": ["./hooks/*"],
-      "@interfaces/*": ["./interfaces/*"],
-      "@libs/*": ["./libs/*"],
-      "@stores/*": ["./stores/*"],
-      "@styles/*": ["./styles/*"],
-      "@components/*": ["./components/*"]
+      "@requests/*": [
+        "./requests/*"
+      ],
+      "@hooks/*": [
+        "./hooks/*"
+      ],
+      "@interfaces/*": [
+        "./interfaces/*"
+      ],
+      "@libs/*": [
+        "./libs/*"
+      ],
+      "@stores/*": [
+        "./stores/*"
+      ],
+      "@styles/*": [
+        "./styles/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ]
     },
     "plugins": [
       {
@@ -46,6 +64,15 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["./out/**/*", "./node_modules/**/*"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "./out/**/*",
+    "./node_modules/**/*"
+  ]
 }
