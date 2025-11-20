@@ -1,6 +1,6 @@
-# Next.js 15 Fullstack Template
+# Next.js 16 Fullstack Template
 
-A feature-rich, production-ready template for building full-stack applications with Next.js 15 and TypeScript.
+A feature-rich, production-ready template for building full-stack applications with Next.js 16 and TypeScript.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -13,7 +13,7 @@ A feature-rich, production-ready template for building full-stack applications w
 
 ## ✨ Features
 
--   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+-   **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
 -   **Language**: [TypeScript](https://www.typescriptlang.org/)
 -   **Authentication**: [NextAuth.js](https://next-auth.js.org/) for robust and easy-to-implement authentication.
 -   **Database**: Integrated with [MongoDB](https://www.mongodb.com/) using `@auth/mongodb-adapter`.

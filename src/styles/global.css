@@ -4,3 +4,19 @@
   box-sizing: border-box;
   word-break: keep-all;
 }
+
+@layer utilities {
+  .bg-grid-slate-100 {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, #f1f5f9 1px, transparent 1px), linear-gradient(to bottom, #f1f5f9 1px, transparent 1px);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-600;
+  }
+}
+
+body {
+  @apply antialiased bg-white text-slate-900;
+}
